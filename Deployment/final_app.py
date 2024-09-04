@@ -57,7 +57,7 @@ if uploaded_file is not None:
     
   """#### **PERFORM DIMENSINALITY REDUCTION**"""
   #call the dimensinality reduction funciton
-  ecg_final = ecg.DimensionalReduciton(ecg_1dsignal)
+  ecg_final = ecg.DimensionalReduction(ecg_1dsignal)
   my_expander4 = st.expander(label='Dimensional Reduction')
   with my_expander4:
     st.write(ecg_final)
