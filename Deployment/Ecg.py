@@ -217,7 +217,7 @@ class ECG:
 
 		return test_final
 		
-	def DimensionalReduciton(self,test_final):
+	def DimensionalReduction(self,test_final):
 		"""
 		This function reduces the dimensinality of the 1D signal using PCA
 		returns the final dataframe
